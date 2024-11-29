@@ -1,4 +1,4 @@
-module github.com/ajneelansh/Auth-Golang.git
+module github.com/ajneelansh/Auth-Golang
 
 go 1.23.2
 
