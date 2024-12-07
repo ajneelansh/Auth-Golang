@@ -1,7 +1,7 @@
 package main
 
 import(
- routes "github.com/ajneelansh/Auth-Golang/routes"
+ routes "Auth-Golang/routes"
  "os"
  "github.com/gin-gonic/gin"
 )

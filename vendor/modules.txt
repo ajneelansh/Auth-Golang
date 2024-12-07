@@ -32,6 +32,9 @@ github.com/cloudwego/base64x
 ## explicit; go 1.16
 github.com/cloudwego/iasm/expr
 github.com/cloudwego/iasm/x86_64
+# github.com/dgrijalva/jwt-go v3.2.0+incompatible
+## explicit
+github.com/dgrijalva/jwt-go
 # github.com/gabriel-vasile/mimetype v1.4.3
 ## explicit; go 1.20
 github.com/gabriel-vasile/mimetype
@@ -55,6 +58,9 @@ github.com/go-playground/locales/currency
 # github.com/go-playground/universal-translator v0.18.1
 ## explicit; go 1.18
 github.com/go-playground/universal-translator
+# github.com/go-playground/validator v9.31.0+incompatible
+## explicit
+github.com/go-playground/validator
 # github.com/go-playground/validator/v10 v10.20.0
 ## explicit; go 1.18
 github.com/go-playground/validator/v10
@@ -200,6 +206,8 @@ go.mongodb.org/mongo-driver/x/mongo/driver/wiremessage
 golang.org/x/arch/x86/x86asm
 # golang.org/x/crypto v0.26.0
 ## explicit; go 1.20
+golang.org/x/crypto/bcrypt
+golang.org/x/crypto/blowfish
 golang.org/x/crypto/ocsp
 golang.org/x/crypto/pbkdf2
 golang.org/x/crypto/scrypt
@@ -246,6 +254,8 @@ google.golang.org/protobuf/proto
 google.golang.org/protobuf/reflect/protoreflect
 google.golang.org/protobuf/reflect/protoregistry
 google.golang.org/protobuf/runtime/protoiface
+# gopkg.in/go-playground/assert.v1 v1.2.1
+## explicit
 # gopkg.in/yaml.v3 v3.0.1
 ## explicit
 gopkg.in/yaml.v3

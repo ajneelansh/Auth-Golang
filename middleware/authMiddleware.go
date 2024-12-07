@@ -1,5 +1,5 @@
 package middleware
 
 import(
-	"github.com/ajneelansh/Auth-Golang/controllers"
+	"Auth-Golang/controllers"
 )

@@ -1,7 +1,7 @@
 package routes
 
 import (
-	 "github.com/ajneelansh/Auth-Golang/controllers"
+	"Auth-Golang/controllers"
 	"github.com/gin-gonic/gin"
 )
 
