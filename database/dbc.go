@@ -18,7 +18,7 @@ func DBinstance() *mongo.Client {
   }
 
   MongoDb := os.Getenv("MONGODB_URL")
-   opt := options.Client().ApplyURI(MongoDb)
+  opt := options.Client().ApplyURI(MongoDb)
 
   ctx,cancel := context.WithTimeout(context.Background(), 10*time.Second)
   defer cancel()
