@@ -9,6 +9,7 @@ import (
 func Authenticate() gin.HandlerFunc{
      return func(c *gin.context){
 		clientToken ,err:= c.Request.Header.Get("token")
+		
         if clientToken == ""{ 
 			c.JSON(http.StatusInternalServerError, gin.H{"error":err.Error()})
 			c.Abort()
@@ -22,6 +23,6 @@ func Authenticate() gin.HandlerFunc{
 			return
 		}
 
-		c.JSON(http.StatusOK,claims)
+			c.JSON(http.StatusOK)
  }
 }

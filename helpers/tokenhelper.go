@@ -6,7 +6,6 @@ import (
 	"log"
 	"os"
 	"time"
-
 	jwt "github.com/dgrijalva/jwt-go"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
@@ -47,9 +46,8 @@ func GenerateAllTokens(email string, firstname string, lastName string, userType
 	token,err := jwt.NewWithClaims(jwt.SigningMethodHS256, claims).SignedString([]byte(SECRET_KEY))
 	refreshToken ,err := jwt.NewWithClaims(jwt.SigningMethodHS256, refreshclaims).SignedString([]byte(SECRET_KEY))
 
-	if err!=nil{
-		log.Panic(err)  
-		return  
+	if err!= nil{
+		log.Panic(err)
 	}
 
 	return token, refreshToken
